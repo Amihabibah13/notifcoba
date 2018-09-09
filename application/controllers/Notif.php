@@ -24,14 +24,14 @@ class Notif extends CI_Controller {
     {
         parent::__construct();
        
-        $this->load->model("Mdatasms");
+        // $this->load->model("Mdatasms");
 
 
     }
 	public function index()
 	{
 
-		$data['sms']=$this->Mdatasms->allsms();
-		$this->load->view('sms',$data);
+		// $data['sms']=$this->Mdatasms->allsms();
+		$this->load->view('sms');
 	}
 }

@@ -3,7 +3,7 @@
 	<title></title>
 </head>
 <body>
-<?php print_r($sms); ?>
+<h1>Ami</h1>
 </body>
 </html>
 <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
